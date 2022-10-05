@@ -1,0 +1,280 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1;
+    font-family: 'Tahoma', "Arial";
+}
+
+header{
+    background-color: #F29199;
+    padding: 10px 0;
+    /*#ffbaff F4DFFF*/
+}
+
+nav{
+    position: absolute;
+    top: 100px;
+    right: 0;
+
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 50px;
+
+}
+nav ul{
+margin-left: 115px;
+font-family: "Sunday Best";
+
+}
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #78AAF0;
+    text-decoration: underline;
+}
+
+ul{
+    list-style: none
+    ;
+}
+
+.logo_caixa{
+    width: 900px;
+    position: relative;
+    margin:auto;
+}
+
+.logo{
+    width: 30%;
+    margin: 0 -125px;
+}
+
+.banner{
+margin: 0;
+    width: 1903px;
+    height: 1080px;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    padding: 2%;
+    margin: -1%;
+}
+
+.principal{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 0;
+    background: #f29199;
+    text-align: justify;
+
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style:italic;
+
+}
+
+.donut{
+    width: 120px;
+    margin: 0 20px 20px 0; 
+}
+
+.sobre{
+    position: relative;
+    margin-left: 30%;
+}
+
+.imagem-principal{
+    position: absolute;
+    margin-left: 20%;
+}
+
+.section-sobre{
+    width: 90%;
+    align-self: center;
+    padding-bottom: 2%;
+}
+
+.map{
+    padding: 3em 0;
+    background: linear-gradient(#F29199,#BF528C);
+}
+
+.mapa-conteudo{
+    width: 940px;
+    margin: auto;
+}
+
+.map p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+@font-face {
+    font-family: "Sunday Best";
+    src: url(sundaybest.ttf);
+}
+
+.titulo-principal{
+    font-family: "Sunday Best";
+}
+
+.beneficios{
+    padding: 3em 0;
+    background: #BF528C;
+}
+
+.titulo-principal{
+    margin-bottom: 3px;
+    font-family: "Sunday Best";
+}
+
+.conteudo-beneficios{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.lista-beneficios{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.img_beneficios {
+    width: 20%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 10px #000000;
+}
+
+
+
+.img_beneficios:hover{
+    opacity: 0.7;
+}
+
+.itens{
+    line-height: 1.5;
+}
+
+.itens:before{
+    content: "🍩"
+}
+
+.itens:first-child{
+    font-weight: bold;
+}
+
+.video{
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background: url("fundocard.jpg");
+    padding: 40px 0;
+
+}
+
+nav a:hover{
+    color: #BF528C;
+    text-decoration: underline;
+}
+
+.banner{
+    width: 100%
+}
+
+.copyright{
+    color: #000000;
+    font-size: 13px;
+    margin: 20px 0 0;
+    text-align: center;
+    font-family: "Sunday Best";
+}
+
+.imgrodape {
+    width: 10%;
+}
+
+.fundocard{
+    background: linear-gradient(#e75561,#e05ba2);
+    height: 600px;
+    margin-top: -20px;
+}
+
+.h1cardapio{
+    padding-top: 50px;
+    text-align: center;
+    font-family: "Sunday Best";
+    
+}
+
+.box1{
+    align-self: left;
+}
+
+.donut1{
+    font-family: "Sunday Best";
+    text-align: center;
+    align-items: center;
+    
+}
+
+.fundocont{
+    background: linear-gradient(#e75561,#e05ba2);
+    height: 800px;
+    margin-top: -20px;
+}
+
+.h1contato{
+    padding-top: 50px;
+    text-align: center;
+    font-family: "Sunday Best";
+    
+}
+
+
+
+.stretch {
+	align-items: stretch;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+    padding: 20px;
+
+}
+
+/* Flex Item */
+.item {
+	flex: 1;
+	margin: 20px;
+	padding: 0 10px;
+    border: 1px solid rgb(224, 224, 224);
+    color: rgb(0, 0, 0);
+	text-align: center;
+	font-size: 1em;
+    font-family: "Sunday Best";
+    background-color: rgba(230, 141, 69, 0.438);
+}
+
