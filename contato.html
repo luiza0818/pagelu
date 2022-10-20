@@ -10,7 +10,7 @@
         <!--Logotipo-->
         <div class="logo_caixa">
             <h1>
-                <a href="index.html" ><img src="logo.png" title="Portifolio" class="logo" ></h1></img></a>
+                <a href="index.html" ><img src="logo.png" title="Home" class="logo" ></h1></img></a>
             </h1>
         <!--Itens de menu-->
             <nav>
@@ -22,14 +22,47 @@
             </nav>
         </div>
     </header>
-    
 
-   
     <main>
-         <section class="fundocont">
-        <h1 class="h1contato">Contate-nos</h1>
-        
+        <section class="fundocont">
+            <h1 class="contatotitulo">🍩 Contato 🍩</h1>
+            <form name="frmContato" method="get" action="mailto:test@mail.com" target="_blank">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <label for="nomesobrenome">* Nome e sobrenome</label>
+                    <input type="text" id="email" name="" class="input-padrao" required> 
+
+                    <label for="email">* Email</label>
+                    <input type="email" id="telefone" name="" class="input-padrao" required placeholder="seuemail@dominio.com"> 
+
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" name="" class="input-padrao" placeholder="(XX) XXXXX-XXXX">
+
+                    <label for="mensagem">*Mensagem</label>
+                    <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+
+                    <label for="contato">Como prefere o nosso contato?
+                        <input type="radio" value="radio-email" name="Contato">Email
+                        <input type="radio" value="radio-telefone" name="Contato">Telefone
+                        <input type="radio" value="radio-whatsapp" name="Contato">Whatsapp
+                    </label>
+
+                    <br>
+                    <label for="horario">Qual o motivo do seu contato?
+                        <select>
+                            <option>Selecione</option>
+                            <option>Dúvida</option>
+                            <option>Elogio</option>
+                            <option>Sugestão</option>
+                            <option>Reclamação</option>
+                        </select>
+                    </label>
+
+                    <label><input type="checkbox" class="chk"> Gostaria de receber nossas novidades?</label>
+                </fieldset>
+            </form>
         </section>
+        
     </main>
     
     <footer>

@@ -7,9 +7,9 @@ body{
 }
 
 header{
-    background-color: #F29199;
     padding: 10px 0;
     /*#ffbaff F4DFFF*/
+    background: url("fundocard.jpg");
 }
 
 nav{
@@ -51,6 +51,8 @@ ul{
     width: 900px;
     position: relative;
     margin:auto;
+    
+    
 }
 
 .logo{
@@ -77,6 +79,7 @@ margin: 0;
     padding: 0 0;
     background: #f29199;
     text-align: justify;
+
 
 }
 
@@ -215,15 +218,25 @@ nav a:hover{
 }
 
 .fundocard{
-    background: linear-gradient(#e75561,#e05ba2);
+    /*background: linear-gradient(#ebaadd,#e27bb2);*/
+    background: #fac6d4;
     height: 600px;
     margin-top: -20px;
 }
 
-.h1cardapio{
-    padding-top: 50px;
+.cardapiotitulo{
     text-align: center;
     font-family: "Sunday Best";
+    padding-top: 30px;
+    
+
+}
+
+.h2cardapio{
+    padding-top: 30px;
+    text-align: center;
+    font-family: "Sunday Best";
+    font-size: 15.5px;
     
 }
 
@@ -239,7 +252,7 @@ nav a:hover{
 }
 
 .fundocont{
-    background: linear-gradient(#e75561,#e05ba2);
+    background: #fac6d4;
     height: 800px;
     margin-top: -20px;
 }
@@ -252,29 +265,85 @@ nav a:hover{
 }
 
 
-
-.stretch {
-	align-items: stretch;
-}
-
 .container {
-	max-width: 1200px;
 	margin: 0 auto;
 	display: flex;
     padding: 20px;
-
+    align-items: stretch;
+    max-width: 1200px;
 }
 
-/* Flex Item */
 .item {
-	flex: 1;
+    flex: 1;
 	margin: 20px;
 	padding: 0 10px;
-    border: 1px solid rgb(224, 224, 224);
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 10px;
     color: rgb(0, 0, 0);
 	text-align: center;
 	font-size: 1em;
     font-family: "Sunday Best";
-    background-color: rgba(230, 141, 69, 0.438);
+    font-size: 15px;
+    background-color: rgba(240, 226, 36, 0.438);
+    align-items: stretch;
+}
+
+.item2 {
+    flex: 1;
+	margin: 20px;
+	padding: 0 10px;
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+	text-align: center;
+	font-size: 1em;
+    font-family: "Sunday Best";
+    font-size: 15px;
+    background-color: rgba(240, 226, 36, 0.438);
+    align-items: stretch;
+}
+
+.item3 {
+    flex: 1;
+	margin: 20px;
+	padding: 0 10px;
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+	text-align: center;
+	font-size: 1em;
+    font-family: "Sunday Best";
+    font-size: 15px;
+    background-color: rgba(240, 226, 36, 0.438);
+    align-items: stretch;
+}
+
+
+.valor{
+    color: rgb(0, 0, 0);
+}
+
+.item:hover{
+    background-color: #f0b6f0;
+    border-width: 8px;
+    border-color: #ffffff;
+}
+
+.item2:hover{
+    border-width: 8px;
+    border-color: #ffffff;
+    background-color: #f0b6f0;
+}
+
+.item3:hover{
+    border-width: 8px;
+    border-color: #ffffff;
+    background-color: #f0b6f0;
+}
+
+.contatotitulo{
+    text-align: center;
+    font-family: "Sunday Best";
+    padding-top: 30px;
 }
 
